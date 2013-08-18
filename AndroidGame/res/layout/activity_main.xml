@@ -9,8 +9,39 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="@string/TCS" />
+    <TextView 
+        android:id="@+id/btnGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:clickable="true"
+        android:contentDescription="@string/play"
+        android:onClick="onClickGame"
+        android:text="@string/play"
+        />
+    <TextView 
+        android:id="@+id/btnHowto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGame"
+        android:clickable="true"
+        android:contentDescription="@string/howto"
+        android:text="@string/howto"
+        android:onClick="onClickHowto"
+        />
+    <TextView 
+        android:id="@+id/btnCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnHowto"
+        android:clickable="true"
+        android:contentDescription="@string/credits"
+        android:text="@string/credits"
+        android:onClick="onClickCredits"
+        />
 
 </RelativeLayout>

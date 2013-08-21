@@ -7,6 +7,39 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/QQ" />
+        android:text="@string/characterSelect" />
+    <!-- 
+    <ImageView
+        android:id="@+id/btnGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:contentDescription="@string/play"
+        android:onClick="onClickGame"
+        android:src="@drawable/play" />
 
+    <ImageView
+        android:id="@+id/btnHowto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGame"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:contentDescription="@string/howto"
+        android:onClick="onClickHowto"
+        android:src="@drawable/howto" />
+
+    <ImageView
+        android:id="@+id/btnCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnHowto"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:contentDescription="@string/credits"
+        android:onClick="onClickCredits"
+        android:src="@drawable/credits" />
+-->
 </RelativeLayout>

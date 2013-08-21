@@ -24,8 +24,8 @@ public class MainActivity extends Activity {
     }
     
     public void onClickGame(View v) {
-    	Toast.makeText(this, "You clicked on Game!", Toast.LENGTH_LONG).show();
-    	Intent intent = new Intent(this, GameActivity.class);
+    	Toast.makeText(this, "User will now select their character", Toast.LENGTH_LONG).show();
+    	Intent intent = new Intent(this, CharacterScreenActivity.class);
     	startActivity(intent);
     	}
 

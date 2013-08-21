@@ -30,6 +30,12 @@
 	        android:screenOrientation="portrait"
 	        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
 	    />
+        <activity 
+            android:name=".CharacterScreenActivity"
+	        android:label="Character Screen Activity"
+	        android:screenOrientation="portrait"
+	        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+        />
 	    <activity
 	        android:name=".HowtoActivity"
 	        android:label="Howto Activity"

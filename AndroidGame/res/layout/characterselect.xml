@@ -18,7 +18,7 @@
         android:layout_below="@+id/characterSelectCopy"
         android:clickable="true"
         android:contentDescription="@string/square"
-        android:onClick="onCharacterSelect"
+        android:onClick="onSquareSelect"
         android:src="@drawable/square" />
 
     <ImageView
@@ -27,9 +27,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_below="@+id/characterSelectCopy"
+        android:layout_toRightOf="@+id/btnSquare"
         android:clickable="true"
         android:contentDescription="@string/triangle"
-        android:onClick="onCharacterSelect"
+        android:onClick="onTriangleSelect"
         android:src="@drawable/triangle" />
 
     <ImageView
@@ -38,9 +39,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_below="@+id/characterSelectCopy"
+        android:layout_toRightOf="@+id/btnTriangle"
         android:clickable="true"
         android:contentDescription="@string/circle"
-        android:onClick="onCharacterSelect"
+        android:onClick="onCircleSelect"
         android:src="@drawable/circle" />
 
 </RelativeLayout>

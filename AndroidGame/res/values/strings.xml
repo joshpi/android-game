@@ -11,5 +11,9 @@
     <string name="howto">HowTo</string>
     <string name="QQ">MORE PEW PEW LESS QQ</string>
     <string name="characterSelect">Choose your character</string>
-
+    
+    <string name="circle">circle</string>
+    <string name="triangle">triangle</string>
+	<string name="square">square</string>
+    
 </resources>

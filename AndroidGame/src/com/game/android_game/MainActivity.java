@@ -23,22 +23,22 @@ public class MainActivity extends Activity {
         return true;
     }
     
-    public void onClickGame(View v) {
-    	Toast.makeText(this, "User will now select their character", Toast.LENGTH_LONG).show();
-    	Intent intent = new Intent(this, CharacterScreenActivity.class);
+	public void onClickGame(View v) {
+		Toast.makeText(this, "User will now select their character", Toast.LENGTH_LONG).show();
+		Intent intent = new Intent(this, CharacterScreenActivity.class);
+		startActivity(intent);
+    }
+
+    public void onClickHowto(View v) {
+    	Toast.makeText(this, "You clicked on Howto!", Toast.LENGTH_LONG).show();
+    	Intent intent = new Intent(this, HowtoActivity.class);
     	startActivity(intent);
-    	}
+    }
 
-    	public void onClickHowto(View v) {
-    	  Toast.makeText(this, "You clicked on Howto!", Toast.LENGTH_LONG).show();
-    	  Intent intent = new Intent(this, HowtoActivity.class);
-    	  startActivity(intent);
-    	}
-
-    	public void onClickCredits(View v) {
-    	  Toast.makeText(this, "You clicked on Credits!", Toast.LENGTH_LONG) .show();
-    	  Intent intent = new Intent(this, CreditsActivity.class);
-    	  startActivity(intent);
-    	}
+	public void onClickCredits(View v) {
+		Toast.makeText(this, "You clicked on Credits!", Toast.LENGTH_LONG).show();
+		Intent intent = new Intent(this, CreditsActivity.class);
+		startActivity(intent);
+	}
     
 }

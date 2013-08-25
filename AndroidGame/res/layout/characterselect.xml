@@ -5,41 +5,42 @@
     android:orientation="vertical" >
 
     <TextView
+        android:id="@+id/characterSelectCopy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/characterSelect" />
-    <!-- 
+     
     <ImageView
-        android:id="@+id/btnGame"
+        android:id="@+id/btnSquare"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imgLogo"
         android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/characterSelectCopy"
         android:clickable="true"
-        android:contentDescription="@string/play"
-        android:onClick="onClickGame"
-        android:src="@drawable/play" />
+        android:contentDescription="@string/square"
+        android:onClick="onCharacterSelect"
+        android:src="@drawable/square" />
 
     <ImageView
-        android:id="@+id/btnHowto"
+        android:id="@+id/btnTriangle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnGame"
         android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/characterSelectCopy"
         android:clickable="true"
-        android:contentDescription="@string/howto"
-        android:onClick="onClickHowto"
-        android:src="@drawable/howto" />
+        android:contentDescription="@string/triangle"
+        android:onClick="onCharacterSelect"
+        android:src="@drawable/triangle" />
 
     <ImageView
-        android:id="@+id/btnCredits"
+        android:id="@+id/btnCircle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnHowto"
         android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/characterSelectCopy"
         android:clickable="true"
-        android:contentDescription="@string/credits"
-        android:onClick="onClickCredits"
-        android:src="@drawable/credits" />
--->
+        android:contentDescription="@string/circle"
+        android:onClick="onCharacterSelect"
+        android:src="@drawable/circle" />
+
 </RelativeLayout>
